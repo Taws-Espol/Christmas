@@ -1,0 +1,77 @@
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: darkgray;
+	width: 100%;
+	margin: 0;
+	padding: 50px 0;
+	-webkit-transition: background 1s ease 0s;
+	-moz-transition: background 1s ease 0s;
+}
+.body{
+	background: #AB0000;
+}
+
+section {
+	background-color: white;	
+	width: 60%;
+	min-width: 60%;
+	height: auto;
+	margin: 0 auto;
+	-webkit-box-shadow: 9px 4px 24px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 9px 4px 24px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 9px 4px 24px 0px rgba(50, 50, 50, 0.75);
+}
+
+#comunicado {
+	padding: 30px;
+}
+#comunicado div {
+	display: block;
+	text-align: center;
+}
+#comunicado span { cursor: pointer }
+
+
+#mute {
+	cursor: pointer;
+	padding: 25px 0 0 5%;
+}
+#felicitacion { display: none }
+#felicitacion h1, #felicitacion p{
+	display: inline-block;
+	width: 90%;
+	padding: 0 5%;
+}
+#felicitacion h1 {
+	text-align: center;
+	font-size: 2em;
+	margin: 0;
+}
+#felicitacion p { 
+	font-size: 1.5em;
+	padding: 0 5% 40px 5%;
+}
+#felicitacion div {
+	display: block;
+	text-align: center;
+	padding: 40px 0;
+}
+	#felicitacion div img { width: 150px }
+#felicitacion footer {
+	background-color: #898900;
+	color: white;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 10px 0;
+}
+	
+
+@media (max-width: 600px) {
+
+}
