@@ -35,7 +35,7 @@ section {
 #media {display: none}
 #mute {
 	cursor: pointer;
-	padding: 25px 0 0 5%;
+	padding: 60px 0 0 5%;
 }
 #felicitacion { 
 	display: none;
@@ -72,6 +72,9 @@ section {
 	padding: 10px 0;
 }
 	
+#cot_tl_fixed {
+	z-index: -99;
+}
 #wall {
 	position: fixed;
 	width: 100%;

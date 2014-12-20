@@ -21,6 +21,7 @@ $("#mostrar-felicitacion").click(function(){
 		$("#felicitacion").fadeIn();
 		$("#wall").css("z-index","-100");
 		$("#wall").css("background","#AB0000");
+		$("#cot_tl_fixed").css("z-index","1");
 		$(media).trigger('play');
 	});
 });
