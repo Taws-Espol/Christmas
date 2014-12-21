@@ -90,3 +90,63 @@ section {
 @media (max-width: 600px) {
 
 }
+
+/*----------------------------------------------------------------------------------------------------------*/
+#comunicado{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#comunicado figcaption{
+    font-size: 13px;
+}
+
+#comunicado h4 {
+    margin: 10px;
+}
+
+#mostrar-felicitacion{
+    width: 95px;
+}
+
+.imgfotoMiembro{
+    width: 50px;
+}
+
+.figfotoMiembro{
+    width: 50px;
+    float: left;
+    padding: 4px;
+    margin: 4px;
+}
+
+#fotos{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #c03e3e;
+}
+
+#AreaAdministracion{
+    background: #0072BF;
+    float: left;
+}
+
+#AreaWeb{
+    background: #E4EB8C; 
+    float: left;   
+}
+
+
+#AreaMovil{
+    background: #00B4E9;
+    float: left;
+}
+
+
+#AreaTecnologica{
+    background: #FDC263;
+    float: left;   
+    
+}
+
+
