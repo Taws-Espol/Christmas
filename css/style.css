@@ -98,7 +98,11 @@ section {
 
 
 #comunicado figcaption{
-    font-size: 13px;
+    font-size: 12px;
+}
+
+#comunicado figure img{
+    border: 2px solid white;
 }
 
 #comunicado h4 {
@@ -110,43 +114,56 @@ section {
 }
 
 .imgfotoMiembro{
-    width: 50px;
+   
 }
 
 .figfotoMiembro{
-    width: 50px;
-    float: left;
-    padding: 4px;
-    margin: 4px;
 }
 
 #fotos{
     margin: 0 auto;
     width: 100%;
-    background-color: #c03e3e;
+
 }
 
 #AreaAdministracion{
-    background: #0072BF;
-    float: left;
+    background: #448AFF;
+    margin: 5px;
+    padding: 15px;
 }
 
 #AreaWeb{
-    background: #E4EB8C; 
-    float: left;   
+    background: #FFEA00;  
+    margin: 5px;
+    padding: 15px;
 }
-
 
 #AreaMovil{
-    background: #00B4E9;
-    float: left;
+    background: #FF9800;
+    margin: 5px;
+    padding: 15px;
 }
 
-
 #AreaTecnologica{
-    background: #FDC263;
-    float: left;   
+    background: #31CD3E; 
+    margin: 5px;
+    padding: 15px;
+}
+
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
     
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .centered {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
