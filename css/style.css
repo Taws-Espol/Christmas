@@ -23,14 +23,15 @@ section {
 	box-shadow: 9px 4px 24px 0px rgba(50, 50, 50, 0.75);
 }
 
-#comunicado {
-	padding: 30px;
-}
-#comunicado div {
+#container {
 	display: block;
-	text-align: center;
+	padding: 30px;	
+	text-align: justify;
 }
-#comunicado span { cursor: pointer }
+#container h4 {
+	margin: 5px 0;
+}
+#container span { cursor: pointer }
 
 #media {display: none}
 #mute {
@@ -61,7 +62,7 @@ section {
 #felicitacion div {
 	display: block;
 	text-align: center;
-	padding: 40px 0;
+	padding: 0 0 40px 0;
 }
 	#felicitacion div img { width: 150px }
 #felicitacion footer {
@@ -87,83 +88,37 @@ section {
 	-moz-transition: background 1s ease 0s;
 }
 
-@media (max-width: 600px) {
+#comunicado { font-family: 'Open Sans', sans-serif }
+#comunicado figcaption { font-size: 12px }
+#comunicado figure img { border: 2px solid white }
 
-}
-
-/*----------------------------------------------------------------------------------------------------------*/
-#comunicado{
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-#comunicado figcaption{
-    font-size: 12px;
-}
-
-#comunicado figure img{
-    border: 2px solid white;
-}
-
-#comunicado h4 {
-    margin: 10px;
-}
-
-#mostrar-felicitacion{
-    width: 95px;
-}
-
-.imgfotoMiembro{
-   
-}
-
-.figfotoMiembro{
-}
-
-#fotos{
-    margin: 0 auto;
-    width: 100%;
-
-}
-
-#AreaAdministracion{
-    background: #448AFF;
-    margin: 5px;
-    padding: 15px;
-}
-
-#AreaWeb{
-    background: #FFEA00;  
-    margin: 5px;
-    padding: 15px;
-}
-
-#AreaMovil{
-    background: #FF9800;
-    margin: 5px;
-    padding: 15px;
-}
-
-#AreaTecnologica{
-    background: #31CD3E; 
-    margin: 5px;
-    padding: 15px;
-}
-
-.centered {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    
+.area {
     text-align: center;
+    padding: 0 0 30px 0;
+	width: 100%;
+	display: inline-block;
+}
+.area figure {
+	text-align: center;
+	display: inline-block;
+	margin: 0 20px;
+}
+.area figure img {
+	width: 150px;
+	border-radius: 100px;
 }
 
-@media (min-width: 768px) {
-    .centered {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
+#gift {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.mostrar-felicitacion {
+	cursor: pointer;
+	width: 95px;
 }
 
-
+@media (max-width: 1100px) {
+	#felicitacion { 
+		margin-top: 80px;
+	}
+}

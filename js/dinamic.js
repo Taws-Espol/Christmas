@@ -13,7 +13,7 @@ $("#mute").click(function(){
 	}
 });
 
-$("#mostrar-felicitacion").click(function(){
+$(".mostrar-felicitacion").click(function(){
 	$("#comunicado").fadeOut(function(){
 		$("title").html("¡Feliz Navidad y próspero Año Nuevo!");
 		$("body").attr("class","body");
